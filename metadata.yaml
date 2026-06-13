@@ -1,0 +1,8 @@
+homepage: https://consentico.com
+documentation: https://consentico.com/docs/google-consent-mode-v2-setup
+versions:
+  - sha: ""
+    changeNotes: |
+      Initial release. Sets Google Consent Mode v2 default state (region-scoped
+      to EEA, UK, and Switzerland) and forwards consentico banner decisions to
+      Google Tag Manager via updateConsentState().
